@@ -371,11 +371,11 @@ p {
 
 	width:200px;
 	height:150px;
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
-	background-color: #fd4326;
-	font: 14px "Open Sans", Arial, sans-serif;
-	padding: 6px 12px;
+	background-color: #cdcdcd;
+	font: 16px "Open Sans", Arial, sans-serif;
+	padding: 20px 12px 8px 12px;
 	white-space: nowrap;
 	-webkit-user-select: none;
 	-moz-user-select: none;

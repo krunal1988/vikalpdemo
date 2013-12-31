@@ -42,19 +42,21 @@ If you like Smint, or have suggestions on how it could be improved, send me a tw
 			///////////////////////////////////
 
 			// get initial top offset for the menu 
-			var stickyTop = $('.smint').offset().top;	
+			var stickyTop = $('.smint').offset().top;
+				
 
 			// check position and make sticky if needed
 			var stickyMenu = function(direction){
 
 				// current distance top
 				var scrollTop = $(window).scrollTop(); 
-
+				
 				// if we scroll more than the navigation, change its position to fixed and add class 'fxd', otherwise change it back to absolute and remove the class
 				if (scrollTop > stickyTop) { 
 					$('.smint').css({ 'position': 'fixed', 'top':0 }).addClass('fxd');	
 				} else {
-					$('.smint').css({ 'position': 'absolute', 'top':stickyTop }).removeClass('fxd'); 
+					
+					$('.smint').css({ 'position': 'absolute', 'top':100 }).removeClass('fxd'); 
 				}   
 
 				//Check if the position is inside then change the menu
@@ -73,7 +75,7 @@ If you like Smint, or have suggestions on how it could be improved, send me a tw
 					}
 					$.each(optionLocs, function(i){
 						if(id != optionLocs[i][2]){
-							console.log(i);
+							//console.log(i);
 							$("#"+optionLocs[i][2]).removeClass("active");
 						}
 					});
