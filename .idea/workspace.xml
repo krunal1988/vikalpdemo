@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dc8d5770-0626-4df6-b228-545a0e74bd82" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/demo.css" afterPath="$PROJECT_DIR$/css/demo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="vikalpdemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,7 +49,7 @@
       <file leaf-file-name="categories.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/categories.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1368" selection-end="1368" vertical-scroll-proportion="-28.125" vertical-offset="0" max-vertical-offset="1920">
+            <state line="44" column="0" selection-start="1341" selection-end="1341" vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="1920">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -71,7 +70,7 @@
       <file leaf-file-name="demo.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/demo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="13" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.69280344" vertical-offset="1320" max-vertical-offset="9075">
+            <state line="216" column="0" selection-start="3774" selection-end="3774" vertical-scroll-proportion="0.016111707" vertical-offset="3225" max-vertical-offset="9075">
               <folding />
             </state>
           </provider>
@@ -444,7 +443,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/categories.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1368" selection-end="1368" vertical-scroll-proportion="-28.125" vertical-offset="0" max-vertical-offset="1920">
+        <state line="44" column="0" selection-start="1341" selection-end="1341" vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="1920">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -463,7 +462,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/demo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="13" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.69280344" vertical-offset="1320" max-vertical-offset="9075">
+        <state line="216" column="0" selection-start="3774" selection-end="3774" vertical-scroll-proportion="0.016111707" vertical-offset="3225" max-vertical-offset="9075">
           <folding />
         </state>
       </provider>
