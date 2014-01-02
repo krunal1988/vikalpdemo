@@ -13,7 +13,6 @@ body {
     color: #999;
     font-size: 12px;
     background: #bfbfbf;
-/ / margin : 0 0 100 px;
 
 }
 
@@ -76,9 +75,6 @@ p {
 
 .wrap {
     background-color: #ffffff;
-/ / width : 100 %;
-/ / max-width : 1400 px;
-/ / min-width : 1280 px;
     z-index: 10;
     position: relative;
     margin: 0 auto;
@@ -87,9 +83,6 @@ p {
 }
 
 .section {
-/ / width : 100 %;
-/ / max-width : 1400 px;
-/ / min-width : 1280 px;
     background-color: #ffffff;
     z-index: 10;
     position: relative;
