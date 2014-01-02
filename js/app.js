@@ -1,10 +1,8 @@
 $(document).ready( function() {
-
     $('.subMenu').smint({
     	'scrollSpeed' : 500
     });
-
-
+   
 	$('.banner').unslider({
 		speed: 300,               //  The speed to animate each slide (in milliseconds)
 		delay: 3000,              //  The delay between slide animations (in milliseconds)

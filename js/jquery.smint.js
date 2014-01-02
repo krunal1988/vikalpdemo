@@ -1,16 +1,3 @@
-/*
-
-SMINT V1.0 by Robert McCracken
-SMINT V2.0 by robert McCracken with some awesome help from Ryan Clarke (@clarkieryan) and mcpacosy ‏(@mcpacosy)
-
-SMINT is my first dabble into jQuery plugins!
-
-http://www.outyear.co.uk/smint/
-
-If you like Smint, or have suggestions on how it could be improved, send me a tweet @rabmyself
-
-*/
-
 
 	(function(){
 
@@ -50,13 +37,18 @@ If you like Smint, or have suggestions on how it could be improved, send me a tw
 
 				// current distance top
 				var scrollTop = $(window).scrollTop(); 
+
+				//console.log('Sticky Top:' + stickyTop);
+				//console.log('Scroll Top:' + scrollTop);
 				
 				// if we scroll more than the navigation, change its position to fixed and add class 'fxd', otherwise change it back to absolute and remove the class
 				if (scrollTop > stickyTop) { 
 					$('.smint').css({ 'position': 'fixed', 'top':0 }).addClass('fxd');	
-				} else {
 					
-					$('.smint').css({ 'position': 'absolute', 'top':100 }).removeClass('fxd'); 
+				} else if(scrollTop < 100){
+					
+					$('.smint').css({ 'position': 'absolute', 'top':'100px' }).removeClass('fxd'); 
+					
 				}   
 
 				//Check if the position is inside then change the menu
