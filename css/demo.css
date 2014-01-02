@@ -71,7 +71,7 @@ p {
 	clear: both;
 }
 .wrap {
-		/*background:url(../images/bg.png) top left repeat-x;*/
+		background-color: #ffffff;
 		//width: 100%;
 		//max-width: 1400px;
 		//min-width: 1280px;
@@ -88,6 +88,7 @@ p {
 	//width: 100%;
 	//max-width: 1400px;
 	//min-width: 1280px;
+	background-color: #ffffff;
 	z-index: 10;
 	position: relative;
 	margin: 0 auto;
@@ -235,7 +236,7 @@ p {
 
 /* SECTIONS */
 .sTop {
-	min-height: 700px;
+	min-height: 600px;
 	background:#ffffff;
 	color:#3d3d3d;
 	padding:0;
@@ -396,14 +397,19 @@ p {
 .container {
   width: 250px;
   height: 300px;
-  background: url(http://dribbble.s3.amazonaws.com/users/23569/screenshots/1239017/crowned_traders_logo_1x.png);
-  background-repeat: no-repeat;
-  background-position: center center;
+  //background: url(http://dribbble.s3.amazonaws.com/users/23569/screenshots/1239017/crowned_traders_logo_1x.png);
+  //background-repeat: no-repeat;
+ // background-position: center center;
  // margin: 50px auto;
   border: 5px solid #fff;
   cursor: pointer;
   float:left; 
   margin-left: 25px;
+}
+
+.container .front img{
+	width: 250px;
+   height: 300px;
 }
 
 .content {
@@ -448,13 +454,13 @@ p {
 
  /*Categories Page */
  
- .csection{
+ .mainSection{
  	background-color: #ffffff;
  	min-height: 920px;
  } 
 
  .article-wrapper{
- 	margin: 140px 0;
+ 	//margin: 140px 0;
  }
  .title{
  	overflow: auto;
