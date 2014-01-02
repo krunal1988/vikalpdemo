@@ -97,20 +97,20 @@ p {
 
 
 .inner {
-	width: 1140px;
+	width: 1024px;
 	margin: 0 auto;
 	position: relative;
 	min-height: 50px;
-	padding:30px 0;
+	padding:30px;
 	font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	padding:30px 0;
+	padding:30px;
 }
 
 .innerLeft{
 	position: relative;
-	width:80%;
+	width:70%;
 	overflow: auto;
 	float:left;
 }
@@ -120,6 +120,7 @@ p {
 	overflow: auto;
 	float:right;
 	padding: 6px 0;
+	margin-right: 20px;
 }
 
 
@@ -397,47 +398,65 @@ p {
 .container {
   width: 250px;
   height: 300px;
-  //background: url(http://dribbble.s3.amazonaws.com/users/23569/screenshots/1239017/crowned_traders_logo_1x.png);
-  //background-repeat: no-repeat;
- // background-position: center center;
- // margin: 50px auto;
   border: 5px solid #fff;
   cursor: pointer;
   float:left; 
   margin-left: 25px;
 }
 
+
+.container{
+	position: relative;
+}
+.front{
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.back{
+	position: absolute;
+	top:0;
+	left: 0;
+}
 .container .front img{
 	width: 250px;
-   height: 300px;
+   height: 200px;
+}
+.container .front h3{
+	line-height: 1.5em;
+	height:100px;
+	width:250px;
+	overflow: hidden;
+	//padding:5px 10px;
+	background-color: #ffffff;
 }
 
-.content {
+.container .back {
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.9);
+  background: #ffffff;
   padding: 5px 15px 10px 15px;
 
   box-sizing: border-box; 
 
   }
-  .content h3 {
+  .container .back h3 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
     color: #2e2e2e; 
-    //line-height: 10px;
-    //color:#fd4326;
+   
   }
   
-  .content p{
+  .container .back p{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #2e2e2e; 
-    height:200px;       
+    height:220px;    
+    overflow: hidden;   
     //line-height: 22px; 
     //font-size: 14px;
     //color:#fd4326;
   }
-  .content .read-article{
+  .container .back .read-article{
   	display: block;
   	text-decoration: none;
   	width:200px;
@@ -445,7 +464,7 @@ p {
   	background-color: #fd4326;
   	color:#ffffff;
   }
-  .content .read-article:hover{
+  .container .back .read-article:hover{
   	background-color: #2e2e2e;
   	color: #ffffff;
   }
